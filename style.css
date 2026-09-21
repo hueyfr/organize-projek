@@ -1,0 +1,33 @@
+body {
+    background-color: khaki;
+}
+
+header {
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+
+nav ul{
+    display: flex;
+    text-align: center;
+    padding: .5rem;
+    gap: 2rem;
+    background-color: black;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    transition: .3 ease-in-out;
+    color: blue;
+}
